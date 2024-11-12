@@ -1,0 +1,206 @@
+/* =========================
+   Base Styles
+======================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9; /* Light background for a clean look */
+  color: #333; /* Dark text for readability */
+  line-height: 1.6; /* Improved line height for better text readability */
+}
+
+/* =========================
+ Container Styles
+======================== */
+.container {
+  max-width: 1200px;
+  margin: 40px auto; /* Center align with margin */
+  padding: 30px;
+  background-color: #e4f313; /* White background for content */
+  border-radius: 15px; /* Round corners for a softer look */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* =========================
+ Header Styles
+======================== */
+header {
+  background-color: #007BFF; /* Bright blue header */
+  color: #ffffff; /* White text for contrast */
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px 15px 0 0; /* Rounded corners at the top */
+}
+
+/* =========================
+ Navigation Styles
+======================== */
+nav {
+  display: flex;
+  justify-content: space-around; /* Space buttons evenly */
+  margin: 20px 0;
+}
+
+nav button {
+  background-color: #28A745; /* Green buttons */
+  color: #d3d482; /* White text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Slightly rounded corners */
+  padding: 12px 20px; /* Ample padding */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+nav button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* =========================
+ Section Styles
+======================== */
+section {
+  background-color: #ffffff; /* White background for sections */
+  padding: 25px; /* Ample padding */
+  margin-bottom: 20px; /* Space between sections */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+  color: #007BFF; /* Bright blue headings */
+  margin-bottom: 15px; /* Space below heading */
+  font-size: 24px; /* Larger font size for emphasis */
+}
+
+/* =========================
+ Form Styles
+======================== */
+form {
+  margin-bottom: 20px; /* Space below form */
+}
+
+form input,
+form select {
+  width: 100%; /* Full width inputs */
+  padding: 15px; /* Ample padding */
+  margin: 10px 0; /* Space between inputs */
+  border: 1px solid #ced4da; /* Light gray border */
+  border-radius: 5px; /* Slightly rounded corners */
+  transition: border-color 0.3s; /* Smooth transition on focus */
+}
+
+form input:focus,
+form select:focus {
+  border-color: #007BFF; /* Change border color on focus */
+}
+
+form button {
+  padding: 15px;
+  background-color: #007BFF; /* Blue button */
+  color: #ffffff; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* =========================
+ Table Styles
+======================== */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Remove space between borders */
+  margin-top: 20px; /* Space above table */
+}
+
+th,
+td {
+  padding: 15px; /* Ample padding */
+  border: 1px solid #dee2e6; /* Light gray border */
+  text-align: left; /* Left align text */
+}
+
+th {
+  background-color: #007BFF; /* Blue header for table */
+  color: #ffffff; /* White text */
+}
+
+/* =========================
+ Button Styles
+======================== */
+button {
+  padding: 10px;
+  background-color: #007BFF; /* Primary button color */
+  color: #ffffff; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* =========================
+ Error Styles
+======================== */
+.error {
+  border: 1px solid #dc3545; /* Red border for errors */
+}
+
+.error-message {
+  color: #dc3545; /* Red text for error messages */
+  font-size: 0.9em; /* Smaller font size */
+  margin: 5px 0; /* Space around message */
+}
+
+/* =========================
+ Home Section Styles
+======================== */
+.home {
+  padding: 20px; /* Padding inside home section */
+  text-align: center; /* Center text */
+}
+
+.home h2 {
+  font-size: 28px; /* Larger font size */
+  margin-bottom: 20px; /* Space below heading */
+}
+
+.home img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* =========================
+ Navigation List Styles
+======================== */
+.home nav ul {
+  list-style-type: none; /* No bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.home nav ul li {
+  display: inline; /* Inline list items */
+  margin: 0 15px; /* Space between items */
+}
+
+nav ul li a {
+  color: #007BFF; /* Blue links */
+  text-decoration: none; /* No underline */
+  font-weight: bold; /* Bold text */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
