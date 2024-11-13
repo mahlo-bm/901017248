@@ -19,8 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node server.js", // Example command
-    "build": "webpack --mode production" // Example command
+    "start": "node server.js", 
+    "build": "webpack --mode production",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
