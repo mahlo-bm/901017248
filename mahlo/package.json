@@ -19,12 +19,15 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "start": "node server.js", // Example command
+    "build": "webpack --mode production" // Example command
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+  
   },
   "eslintConfig": {
     "extends": [
